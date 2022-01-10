@@ -1,0 +1,63 @@
+div{
+  overflow: hidden;
+}
+h1{
+  font-family:  Ember,Amazon Arabic Ember,Arial,sans-serif!important
+}
+.sub-img{
+  position: relative; 
+  /* top: 0px;
+  left: 0px; */
+   padding: 50px;
+  transition: transform .2s;
+}
+.sub-img:hover{
+  color: azure;
+  transform: scale(1.5);
+}
+#banner{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.img-size{
+  width: 20%;
+  height: 20%;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.img-disp{
+  display: inline;
+}
+h3 {
+  /* display: block; */
+  padding: 8px;
+  color: white;
+  text-decoration: underline;
+}
+.container{
+  background-color: #1a242f;
+  width: 100%;
+}
+.prime-img{
+  position: absolute;
+  margin-left: 50px;
+}
+
+@media only screen and (max-width: 480px) {
+  .sub-img{
+    width: 70%;
+  }
+  #banner-disp{
+    width: 60%;
+    height:50%;
+    }
+}
